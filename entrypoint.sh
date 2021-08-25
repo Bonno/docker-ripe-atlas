@@ -13,6 +13,7 @@ mkdir -p /var/atlas-probe/etc
 chown -R atlas:atlas /var/atlas-probe/etc
 mkdir -p /var/atlas-probe/state
 chown -R atlas:atlas /var/atlas-probe/state
+chown -R atlas:atlas /var/atlasdata
 echo "" > "${CONFIG_FILE}"
 
 # set probe configuration
